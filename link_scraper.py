@@ -17,7 +17,8 @@ from bs4 import BeautifulSoup
 text = requests.get(target).text
 soup = BeautifulSoup(text, 'html.parser')
 tags = soup.find_all('a')
-for link in tags:
-    results = link.get('href')
-    if 'http' in results:
-        print(results)
+with open('link.txt', 'w') as f:
+    for link in tags:
+        results = link.get('href')
+        if 'http' in results:
+            f.write(results + '\n')

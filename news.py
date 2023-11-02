@@ -43,3 +43,11 @@ def bbc():
             title = tag.text.strip()
             if title:
                 print(f'Result: {title}' + '\n')
+
+print('-' *80)
+foxnews()
+print('-' *80)
+cnn()
+print('-' *80)
+bbc()
+print('-' *80)

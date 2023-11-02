@@ -7,7 +7,7 @@ print('''
  \__,_|\__,_|_|_|\__, |_| |_|\___| \_/\_/ |___/
                   __/ |                        
                  |___/
-'''
+''')
 import requests
 from bs4 import BeautifulSoup
 

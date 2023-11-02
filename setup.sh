@@ -5,8 +5,9 @@ sudo apt-get upgrade -y
 sudo apt-get autoremove -y
 
 pip install beautifulsoup4
-sudo apt install nmap -y
+apt install nmap
 pip install shodan
+pip install email-validator
 
 
 

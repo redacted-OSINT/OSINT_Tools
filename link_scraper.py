@@ -23,6 +23,7 @@ def grab_links(url):
 def main():
     url = input('Enter target URL here: ')
     grab_links(url)
+    print('Results are in results.txt file.')
 
 if __name__ == "__main__":
     main()
